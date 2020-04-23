@@ -1,0 +1,67 @@
+body {
+    background-image: linear-gradient(#00000052, #00000052), url(../images/fond.jpg);
+    /* police cursive*/
+    font-family: cursive;
+    background-attachment: fixed;
+}
+
+#container {
+    /* la section*/
+    width: 900px;
+    margin: auto;
+}
+
+h1 {
+    color: chartreuse;
+}
+
+.pub {
+    /* 1ere div*/
+    background-color: white;
+    height: auto;
+    padding: 40px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.pub p {
+    
+    font-size: 17px;
+}
+
+.img-box {
+    /*1er publication 1ere image*/
+    height: 400px;
+    background-color: #ccc;
+    transition: 0.3s;
+}
+
+.img-box:hover {
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: #ff56d5a6;
+}
+
+.image1 {
+    background-image: url(../images/photo.jpg);
+    background-size: cover;
+}
+
+
+
+.logo {
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    bottom: 40px;
+    right: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.logo:hover {
+    transform: scale(1.25);
+}
